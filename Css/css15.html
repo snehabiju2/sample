@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <style>
+        .body {
+            font-family: sans-serif;
+            background-image: url(down.jpg);
+            background-position: center;
+        }
+        
+        .sign-upform {
+            width: 400px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+            background: #fff;
+            padding: 20px;
+            margin: 8% auto 0;
+        }
+        
+        .but {
+            color: rgb(237, 237, 241);
+            background-color: rgb(24, 24, 24);
+            margin-bottom: 30px;
+            margin-top: 15px;
+            padding: 12px 160px;
+        }
+        
+        .input-box {
+            border-radius: 10px;
+            margin-bottom: 30px;
+            padding: 10px 120px;
+            border: 2px rgb(75, 73, 73);
+            background-color: rgb(246, 245, 245);
+            text-align: left;
+        }
+        
+        .h1 {
+            text-align: center;
+        }
+        
+        .hb {
+            width: 162px;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="sign-upform">
+        <div class="h1">
+            <h1><b>Sign Up</b></h1>
+        </div>
+        <hr>
+        <form>
+            <label for="text">First name</label>
+            <input type="text" class="input-box" placeholder="first name">
+            <label for="text">Last name</label>
+            <input type="text" class="input-box" placeholder="last name">
+            <label for="date">Date of birth</label>
+            <input type="date" class="input-box hb">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" class="input-box" placeholder="your email">
+            <label for="password">Password</label>
+            <input type="password" class="input-box" placeholder="password">
+            <label for="password">Confirm Password</label>
+            <input type="password" class="input-box" placeholder="repeat password">
+            <hr>
+            <div> <button type="button" class="but">REGISTER</button></div>
+        </form>
+
+    </div>
+</body>
+
+</html>
